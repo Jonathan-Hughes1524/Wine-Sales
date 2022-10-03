@@ -35,17 +35,24 @@ The graph above shows how the rating affects the price of thwe wine. As seen in 
 After preparing the data for machine learning a KNN model was attempted on the data. The model was ran and evaluated using  mean squard error and r2 scores.  Which are shown below. 
 
 KNN Training RMSE: 116.43955051980967
-KNN Test RMSE: 171.91515129997822
+
+KNN Test RMSE: 171.9151512997822
+
 -----
 KNN Training R2: 0.8217290686713979
+
 KNN Testing R2: 0.5644332494491799
 
 Then the model was hypertuned to try and increase the performance. The model was ran through a grid search to find parameters to help the model perform. The new model was called KNN_GS and evaluated on the same metrics.
 
 KNN_GS Training RMSE: 136.37236655701446
+
 KNN_GS Test RMSE: 174.7422276892105
+
 -----
+
 KNN_GS Training R2: 0.7554699441517364
+
 KNN_GS Testing R2: 0.5499900168605133
 
 #Second Model is a Linear Regression
@@ -53,8 +60,13 @@ KNN_GS Testing R2: 0.5499900168605133
 A linear regression model was ran to see how well it would perform on the data. It was evaluated with the same metrics as the KNN models. The results are shown below.
 
 RF Training RMSE: 90.22762712274984
+
 RF Testing RMSE: 75352984217647.19
+
+-----
+
 RF Training R2: 0.8929569278446096
+
 RF Testing R2: -8.36810893752042e+22
 
 As seen these scores need some improving on the model if it is going to be used. 
@@ -64,9 +76,13 @@ As seen these scores need some improving on the model if it is going to be used.
 First I ran the Linear model with PCA applied to it. This was done to see if we could improve the model and get better evaluation metric scores. The scores are shown below.
 
 PCA Linear Training RMSE: 114.82922005839413
+
 PCA Linear Test RMSE: 179.98282721316815
+
 -----
+
 PCA Linear Training R2: 0.8266258588186874
+
 PCA Linear Testing R2: 0.5225932540329836
 
 #The fourth model is a KNN with PCA applied. 
@@ -74,9 +90,13 @@ PCA Linear Testing R2: 0.5225932540329836
 Then I ran the Linear model with PCA applied to it. This was done to see if we could improve the model and get better evaluation metric scores. The scores are shown below. 
 
 PCA KNN Training RMSE: 113.81554626080565
+
 PCA KNN Test RMSE: 177.92317289780044
+
 -----
+
 PCA KNN Training R2: 0.8296733255846894
+
 PCA KNN Testing R2: 0.533457253302263
 
 
