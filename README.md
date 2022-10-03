@@ -31,6 +31,7 @@ The graph above shows how the rating affects the price of thwe wine. As seen in 
 #Based on the association some columns were dropped befroe machine learning. The region and country were dropped from the model. 
 
 #First model is KNN
+
 After preparing the data for machine learning a KNN model was attempted on the data. The model was ran and evaluated using  mean squard error and r2 scores.  Which are shown below. 
 KNN Training RMSE: 116.43955051980967
 KNN Test RMSE: 171.91515129997822
@@ -46,6 +47,7 @@ KNN_GS Training R2: 0.7554699441517364
 KNN_GS Testing R2: 0.5499900168605133
 
 #Second Model is a Linear Regression
+
 A linear regression model was ran to see how well it would perform on the data. It was evaluated with the same metrics as the KNN models. The results are shown below.
 RF Training RMSE: 90.22762712274984
 RF Testing RMSE: 75352984217647.19
@@ -54,6 +56,7 @@ RF Testing R2: -8.36810893752042e+22
 As seen these scores need some improving on the model if it is going to be used. 
 
  #The third model is a linear with PCA applied
+ 
 First I ran the Linear model with PCA applied to it. This was done to see if we could improve the model and get better evaluation metric scores. The scores are shown below. 
 PCA Linear Training RMSE: 114.82922005839413
 PCA Linear Test RMSE: 179.98282721316815
@@ -62,6 +65,7 @@ PCA Linear Training R2: 0.8266258588186874
 PCA Linear Testing R2: 0.5225932540329836
 
 #The fourth model is a KNN with PCA applied. 
+
 Then I ran the Linear model with PCA applied to it. This was done to see if we could improve the model and get better evaluation metric scores. The scores are shown below. 
 PCA KNN Training RMSE: 113.81554626080565
 PCA KNN Test RMSE: 177.92317289780044
