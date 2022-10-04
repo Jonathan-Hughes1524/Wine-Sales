@@ -20,7 +20,7 @@ Methods:
   * After preprocessing ran the data through a Linear Regression and KNN. 
   * Evaluated the models with MAE, MSE, RMSE and R^2 metrics to determine best model.
 
-#Correlation visualization
+# Correlation visualization
 ![image](https://user-images.githubusercontent.com/108833661/193129047-edc4a7be-f1b4-41a0-9857-8168ddb78dcb.png)
 This graph shows us the correlation between the price and other features. It shows us whether the feature will have a positive, negative or no correlation to the price. This is helpful when determining what featurest to focus on when making a wine. 
 
@@ -28,7 +28,7 @@ This graph shows us the correlation between the price and other features. It sho
 ![image](https://user-images.githubusercontent.com/108833661/193129120-12b121f9-20b1-4a56-bba3-44d0204a4ba6.png)
 The graph above shows how the rating affects the price of thwe wine. As seen in the graph the higher priced wines have the better ratings. It is important to get a good rating on the wine if you wish to charge more for the wine. 
 
-#Based on the association some columns were dropped befroe machine learning. The region and country were dropped from the model. 
+# Based on the association some columns were dropped befroe machine learning. The region and country were dropped from the model. 
 
 #First model is KNN
 
@@ -101,9 +101,11 @@ PCA KNN Testing R2: 0.533457253302263
 
 
 
-#Recommendations: My recommendation is to use the KNN  model to predict the sales price of the wine. This will allow us to select the best price of a wine to optimize the sales of each wine. This will allow us to not overcharge the customer and prevent sales, while also allowing us to make the hightest profit off the wine sales.
+# Recommendations:
+My recommendation is to use the KNN  model to predict the sales price of the wine. This will allow us to select the best price of a wine to optimize the sales of each wine. This will allow us to not overcharge the customer and prevent sales, while also allowing us to make the hightest profit off the wine sales.
 
-#Limitations and next steps: I would like to consult a wine expert on helping determine if more features need to be dropped to improve scores
+# Limitations and next steps:
+I would like to consult a wine expert on helping determine if more features need to be dropped to improve scores
 
 For further information: For any additional questions please contact
 jhughes1524@gmail.com
